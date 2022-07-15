@@ -545,6 +545,7 @@ h6 {
 }
 
 ._spoller-init .title-footer {
+  outline: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4742,6 +4743,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .icon-menu {
+    outline: none;
     display: block;
     position: relative;
     width: 1.875rem;
