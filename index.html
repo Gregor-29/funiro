@@ -2,11 +2,11 @@
 <html lang="ru">
 
 <head>
-	<title>MongoDB</title>
+	<title>Главная</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220716232235">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220715125224">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,90 +16,460 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container">
-				<a href="" class="header__logotip-ibg">
-					<img src="img/iocns/logo.svg" alt="">
-				</a>
-				<div class="header__body">
-					<div class="header__menu menu">
+				<div class="header__menu menu">
+					<a href="#" class="menu__logo">Funiro.</a>
+					<nav data-da=".icons-header,767.98" class="menu__nav">
 						<button type="button" class="menu__icon icon-menu"><span></span></button>
-						<nav class="menu__body">
-							<ul class="menu__list">
-								<li class="menu__item menu__item_line"><a href="index.html" class="menu__link">Home</a></li>
-								<li class="menu__item"><a href="roadmap.html" class="menu__link">Roadmap</a></li>
-								<li class="menu__item"><a href="" class="menu__link">Blog</a></li>
-								<li class="menu__item"><a href="" class="menu__link">Materials</a></li>
-								<li class="menu__item"><a href="https://github.com/" target="_blank" class="menu__link menu__link_github _icon-github"></a></li>
-							</ul>
-						</nav>
+						<ul class="menu__list menu__body">
+							<li id="list-link_01" class="menu__item">
+								<sapn class="menu__link _icon-arrow link-menu">Products</sapn>
+								<ul class="link-menu__items">
+									<li class="link-menu__item link-menu__item_back _icon-arrow">back</li>
+									<li class="link-menu__item"><a href="">New</a></li>
+									<li class="link-menu__item"><a href="">Discount</a></li>
+									<li class="link-menu__item"><a href="">Quality</a></li>
+									<li class="link-menu__item"><a href="">Best offers</a></li>
+								</ul>
+							</li>
+							<li id="list-link_02" class="menu__item"><span class="menu__link _icon-arrow link-menu">Rooms</span>
+								<ul class="link-menu__items">
+									<li class="link-menu__item link-menu__item_back _icon-arrow">back</li>
+									<li class="link-menu__item"><a href="">New</a></li>
+									<li class="link-menu__item"><a href="">Discount</a></li>
+									<li class="link-menu__item"><a href="">Quality</a></li>
+									<li class="link-menu__item"><a href="">Best offers</a></li>
+								</ul>
+							</li>
+							<li class="menu__item"><a href="" class="menu__link">Inspirations</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<form action="#" class="header__search search-header">
+					<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Search for minimalist chair" class="search-header__input">
+					<button data-da=".icons-header__icon,991.98" type="submit" class="search-header__button _icon-search"></button>
+				</form>
+				<div class="header__icons icons-header">
+					<div class="icons-header__icon">
+						<a href="" class="icons-header__heart _icon-heart"></a>
+						<div class="cart">
+							<a href="" class="cart__icon _icon-cart"></a>
+							<div class="cart__body">
+								<ul class="cart__list"></ul>
+							</div>
+						</div>
 					</div>
-					<div class="header__text">MongoTech - cloud SaaS service to manage your <a target="_blank" href="">MongoDB</a> in clouds AWS, Google and Azure</div>
+					<a href="" class="icons-header__avatar">
+						<picture><source srcset="img/avatar/avatar.webp" type="image/webp"><img src="img/avatar/avatar.jpeg" alt="avatar"></picture>
+					</a>
 				</div>
 			</div>
 		</header>
 		<main class="page">
-			<!--=====provide=============================================================================-->
-			<div class="provide">
-				<div class="provide__container">
-					<h2 class="provide__title">What we provide?
-					</h2>
-					<div class="provide__square square-provide">
-						<div class="square-provide__item">Properly installed instance in you favorite cloud with XFS
-							that MongoDB like very well</div>
-						<div class="square-provide__item">Applied production notes for best performance of your instance
+			<!--=======main-block=========================================================================-->
+			<div class="main-block">
+				<div class="main-block__container">
+					<section class="main-block__content content-main">
+						<h2 class="content-main__title">High-Quality
+							Furniture Just
+							For You</h2>
+						<div class="content-main__text">Our furniture is made from selected and best quality materials
+							that
+							are suitable for your dream home</div>
+						<a href="" class="content-main__button">Shop Now</a>
+					</section>
+					<div class="main-block__slider slider-main">
+						<div class="slider-main__controls controls-slider">
+							<div class="controls-slider__bullets"></div>
+							<div class="controls-slider__arrows">
+								<div class="controls-slider__left _icon-arrow"></div>
+								<div class="controls-slider__right _icon-arrow"></div>
+							</div>
 						</div>
-						<div class="square-provide__item">Secure network setup with SSL certificates for secure access
-							to your database</div>
+						<div class="slider-main__slider swiper">
+							<div class="slider-main__wrapper swiper-wrapper">
+								<div class="slider-main__slide swiper-slide slide-main">
+									<div class="slide-main__image">
+										<picture><source srcset="img/main-slider/01.webp" type="image/webp"><img src="img/main-slider/01.jpg" alt=""></picture>
+									</div>
+									<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%,px" class="slide-main__info info-slider">
+										<h3 data-swiper-parallax-opacity="0" data-swiper-parallax-x="-150%,px" class="info-slider__title">Bohauss</h3>
+										<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-200%,px" class="info-slider__text">Luxury big sofa 2-seat</div>
+										<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-170%,px" class="info-slider__articul _icon-arrow-two">Rp 17.000.000</div>
+									</div>
+								</div>
+								<div class="slider-main__slide swiper-slide slide-main">
+									<div class="slide-main__image">
+										<picture><source srcset="img/main-slider/02.webp" type="image/webp"><img src="img/main-slider/02.jpg" alt=""></picture>
+									</div>
+									<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%,px" class="slide-main__info info-slider">
+										<h3 data-swiper-parallax-opacity="0" data-swiper-parallax-x="-150%,px" class="info-slider__title">Bohauss</h3>
+										<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-200%,px" class="info-slider__text">Luxury big sofa 2-seat</div>
+										<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-170%,px" class="info-slider__articul _icon-arrow-two">Rp 17.000.000</div>
+									</div>
+								</div>
+								<div class="slider-main__slide swiper-slide slide-main">
+									<div class="slide-main__image">
+										<picture><source srcset="img/main-slider/03.webp" type="image/webp"><img src="img/main-slider/03.jpg" alt=""></picture>
+									</div>
+									<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%,px" class="slide-main__info info-slider">
+										<h3 data-swiper-parallax-opacity="0" data-swiper-parallax-x="-150%,px" class="info-slider__title">Bohauss</h3>
+										<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-200%,px" class="info-slider__text">Luxury big sofa 2-seat</div>
+										<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-170%,px" class="info-slider__articul _icon-arrow-two">Rp 17.000.000</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!--=====goals=============================================================================-->
-			<div class="goals">
-				<div class="goals__container">
-					<div class="goals__title">Our goal
+			<!--=======features=========================================================================-->
+			<div class="features">
+				<div class="features__container">
+					<div class="features__item item-features">
+						<div class="item-features__image-ibg_contain">
+							<img src="img/features/01.svg" alt="">
+						</div>
+						<h4 class="item-features__title">High Quality</h4>
+						<div class="item-features__text">crafted from top materials</div>
 					</div>
-					<div class="goals__text">Provide easy to install process with full support of monitoring your
-						instances, create paradise for developers you need MongoDB in production, without needed to
-						manage it manually
+					<div class="features__item item-features">
+						<div class="item-features__image-ibg_contain">
+							<img src="img/features/02.svg" alt="">
+						</div>
+						<h4 class="item-features__title">High Quality</h4>
+						<div class="item-features__text">crafted from top materials</div>
+					</div>
+					<div class="features__item item-features">
+						<div class="item-features__image-ibg_contain">
+							<img src="img/features/03.svg" alt="">
+						</div>
+						<h4 class="item-features__title">High Quality</h4>
+						<div class="item-features__text">crafted from top materials</div>
+					</div>
+					<div class="features__item item-features">
+						<div class="item-features__image-ibg_contain">
+							<img src="img/features/04.svg" alt="">
+						</div>
+						<h4 class="item-features__title">High Quality</h4>
+						<div class="item-features__text">crafted from top materials</div>
 					</div>
 				</div>
 			</div>
-			<!--=====who=============================================================================-->
-			<div class="who">
-				<div class="who__container">
-					<div class="who__title">Who we are?</div>
-					<div class="who__text">
-						<p>MongoTech is full open source project you can use it as you wish</p>
-						Team that create this project consist from more than 20 python developers, who has big
-						expiricene in <a href="" target="_blank">MongoDB</a> and <a href="" target='_blank'>FastAPI</a>,
-						you can trust
-						community this is
-						best solution for your
-						bussines
+			<!--=======our-products=========================================================================-->
+			<div class="our-products">
+				<div class="our-products__container">
+					<h3 class="our-products__title">Our Products</h3>
+					<div class="our-products__items">
+						<div class="our-products__item item-products">
+							<div class="item-products__image-ibg">
+								<picture><source srcset="img/our-products/01.webp" type="image/webp"><img src="img/our-products/01.png" alt=""></picture>
+							</div>
+							<div class="item-products__body body-products">
+								<div class="body-products__name">Syltherine</div>
+								<div class="body-products__description">Stylish cafe chair</div>
+								<div class="body-products__prices">
+									<div class="body-products__newPrice">Rp 2.500.000</div>
+									<div class="body-products__oldPrice">Rp 3.500.000</div>
+								</div>
+							</div>
+							<div class="item-products__discount item-products__discount_rose">-30%</div>
+							<div class="item-products__cover cover-products">
+								<button type="button" class="cover-products__button">Add to cart</button>
+								<div class="cover-products__actions">
+									<a href="" class="cover-products__share _icon-share">Share</a>
+									<a href="" class="cover-products__like _icon-heart">Like</a>
+								</div>
+							</div>
+						</div>
+						<div class="our-products__item item-products">
+							<div class="item-products__image-ibg">
+								<picture><source srcset="img/our-products/05.webp" type="image/webp"><img src="img/our-products/05.png" alt=""></picture>
+							</div>
+							<div class="item-products__body body-products">
+								<div class="body-products__name">Grifo</div>
+								<div class="body-products__description">Night lamp</div>
+								<div class="body-products__prices">
+									<div class="body-products__newPrice">Rp 1.500.000</div>
+									<div class="body-products__oldPrice"></div>
+								</div>
+							</div>
+							<div class="item-products__discount item-products__discount_rose">-30%</div>
+							<div class="item-products__cover cover-products">
+								<button type="button" class="cover-products__button">Add to cart</button>
+								<div class="cover-products__actions">
+									<a href="" class="cover-products__share _icon-share">Share</a>
+									<a href="" class="cover-products__like _icon-heart">Like</a>
+								</div>
+							</div>
+						</div>
+						<div class="our-products__item item-products">
+							<div class="item-products__image-ibg">
+								<picture><source srcset="img/our-products/03.webp" type="image/webp"><img src="img/our-products/03.png" alt=""></picture>
+							</div>
+							<div class="item-products__body body-products">
+								<div class="body-products__name">Lolito</div>
+								<div class="body-products__description">Luxury big sofa</div>
+								<div class="body-products__prices">
+									<div class="body-products__newPrice">Rp 7.000.000</div>
+									<div class="body-products__oldPrice">Rp 14.000.000</div>
+								</div>
+							</div>
+							<div class="item-products__discount item-products__discount_rose">-50%</div>
+							<div class="item-products__cover cover-products">
+								<button type="button" class="cover-products__button">Add to cart</button>
+								<div class="cover-products__actions">
+									<a href="" class="cover-products__share _icon-share">Share</a>
+									<a href="" class="cover-products__like _icon-heart">Like</a>
+								</div>
+							</div>
+						</div>
+						<div class="our-products__item item-products">
+							<div class="item-products__image-ibg">
+								<picture><source srcset="img/our-products/04.webp" type="image/webp"><img src="img/our-products/04.png" alt=""></picture>
+							</div>
+							<div class="item-products__body body-products">
+								<div class="body-products__name">Respira</div>
+								<div class="body-products__description">Minimalist fan</div>
+								<div class="body-products__prices">
+									<div class="body-products__newPrice">Rp 500.000</div>
+									<div class="body-products__oldPrice"></div>
+								</div>
+							</div>
+							<div class="item-products__discount item-products__discount_green">new</div>
+							<div class="item-products__cover cover-products">
+								<button type="button" class="cover-products__button">Add to cart</button>
+								<div class="cover-products__actions">
+									<a href="" class="cover-products__share _icon-share">Share</a>
+									<a href="" class="cover-products__like _icon-heart">Like</a>
+								</div>
+							</div>
+						</div>
+						<div class="our-products__item item-products">
+							<div class="item-products__image-ibg">
+								<picture><source srcset="img/our-products/05.webp" type="image/webp"><img src="img/our-products/05.png" alt=""></picture>
+							</div>
+							<div class="item-products__body body-products">
+								<div class="body-products__name">Grifo</div>
+								<div class="body-products__description">Night lamp</div>
+								<div class="body-products__prices">
+									<div class="body-products__newPrice">Rp 1.500.000</div>
+									<div class="body-products__oldPrice"></div>
+								</div>
+							</div>
+							<div class="item-products__discount"></div>
+							<div class="item-products__cover cover-products">
+								<button type="button" class="cover-products__button">Add to cart</button>
+								<div class="cover-products__actions">
+									<a href="" class="cover-products__share _icon-share">Share</a>
+									<a href="" class="cover-products__like _icon-heart">Like</a>
+								</div>
+							</div>
+						</div>
+						<div class="our-products__item item-products">
+							<div class="item-products__image-ibg">
+								<picture><source srcset="img/our-products/06.webp" type="image/webp"><img src="img/our-products/06.png" alt=""></picture>
+							</div>
+							<div class="item-products__body body-products">
+								<div class="body-products__name">Muggo</div>
+								<div class="body-products__description">Small mug</div>
+								<div class="body-products__prices">
+									<div class="body-products__newPrice">Rp 150.000</div>
+									<div class="body-products__oldPrice"></div>
+								</div>
+							</div>
+							<div class="item-products__discount item-products__discount_green">new</div>
+							<div class="item-products__cover cover-products">
+								<button type="button" class="cover-products__button">Add to cart</button>
+								<div class="cover-products__actions">
+									<a href="" class="cover-products__share _icon-share">Share</a>
+									<a href="" class="cover-products__like _icon-heart">Like</a>
+								</div>
+							</div>
+						</div>
+						<div class="our-products__item item-products">
+							<div class="item-products__image-ibg">
+								<picture><source srcset="img/our-products/07.webp" type="image/webp"><img src="img/our-products/07.jpg" alt=""></picture>
+							</div>
+							<div class="item-products__body body-products">
+								<div class="body-products__name">Pingky</div>
+								<div class="body-products__description">Cute bed set</div>
+								<div class="body-products__prices">
+									<div class="body-products__newPrice">Rp 7.000.000</div>
+									<div class="body-products__oldPrice">Rp 14.000.000</div>
+								</div>
+							</div>
+							<div class="item-products__discount item-products__discount_rose">-50%</div>
+							<div class="item-products__cover cover-products">
+								<button type="button" class="cover-products__button">Add to cart</button>
+								<div class="cover-products__actions">
+									<a href="" class="cover-products__share _icon-share">Share</a>
+									<a href="" class="cover-products__like _icon-heart">Like</a>
+								</div>
+							</div>
+						</div>
+						<div class="our-products__item item-products">
+							<div class="item-products__image-ibg">
+								<picture><source srcset="img/our-products/08.webp" type="image/webp"><img src="img/our-products/08.png" alt=""></picture>
+							</div>
+							<div class="item-products__body body-products">
+								<div class="body-products__name">Potty</div>
+								<div class="body-products__description">Minimalist flower pot</div>
+								<div class="body-products__prices">
+									<div class="body-products__newPrice">Rp 500.000</div>
+									<div class="body-products__oldPrice"></div>
+								</div>
+							</div>
+							<div class="item-products__discount item-products__discount_green">new</div>
+							<div class="item-products__cover cover-products">
+								<button type="button" class="cover-products__button">Add to cart</button>
+								<div class="cover-products__actions">
+									<a href="" class="cover-products__share _icon-share">Share</a>
+									<a href="" class="cover-products__like _icon-heart">Like</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="" class="our-products__button">Show More</a>
+				</div>
+			</div>
+			<!--=======rooms=========================================================================-->
+			<div class="rooms">
+				<div class="rooms__container">
+					<section class="rooms__description description-rooms">
+						<h3 class="description-rooms__title">50+ Beautiful rooms
+							inspiration</h3>
+						<div class="description-rooms__text">Our designer already made a lot of beautiful prototipe of
+							rooms that inspire you</div>
+						<a href="" class="description-rooms__button">Explore More</a>
+					</section>
+					<div class="rooms__slider slider-rooms">
+						<div class="slider-rooms__arrows arrows-rooms">
+							<div class="arrows-rooms__left _icon-arrow"></div>
+							<div class="arrows-rooms__right _icon-arrow"></div>
+						</div>
+						<div class="slider-rooms__slider swiper">
+							<div class="slider-rooms__wrapper swiper-wrapper">
+								<div class="slider-rooms__slide swiper-slide slide-rooms">
+									<div class="slide-rooms__image-ibg">
+										<picture><source srcset="img/rooms-slider/01.webp" type="image/webp"><img src="img/rooms-slider/01.jpg" alt=""></picture>
+									</div>
+									<div class="slide-rooms__square">
+										<div class="slide-rooms__features">
+											<h4 data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%,px" class="slide-rooms__titple"><span>01</span>Bed Room</h4>
+											<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-150%,px" class="slide-rooms__text">Inner Peace</div>
+										</div>
+										<button data-swiper-parallax-opacity="0" data-swiper-parallax-x="-170%,px" tupe="button" class="slide-rooms__button _icon-arrow-two"></button>
+									</div>
+								</div>
+								<div class="slider-rooms__slide swiper-slide slide-rooms">
+									<div class="slide-rooms__image-ibg">
+										<picture><source srcset="img/rooms-slider/02.webp" type="image/webp"><img src="img/rooms-slider/02.jpg" alt=""></picture>
+									</div>
+									<div class="slide-rooms__square">
+										<div class="slide-rooms__features">
+											<h4 data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%,px" class="slide-rooms__titple"><span>01</span>Bed Room</h4>
+											<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-150%,px" class="slide-rooms__text">Inner Peace</div>
+										</div>
+										<button data-swiper-parallax-opacity="0" data-swiper-parallax-x="-170%,px" tupe="button" class="slide-rooms__button _icon-arrow-two"></button>
+									</div>
+								</div>
+								<div class="slider-rooms__slide swiper-slide slide-rooms">
+									<div class="slide-rooms__image-ibg">
+										<picture><source srcset="img/rooms-slider/03.webp" type="image/webp"><img src="img/rooms-slider/03.jpg" alt=""></picture>
+									</div>
+									<div class="slide-rooms__square">
+										<div class="slide-rooms__features">
+											<h4 data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%,px" class="slide-rooms__titple"><span>01</span>Bed Room</h4>
+											<div data-swiper-parallax-opacity="0" data-swiper-parallax-x="-150%,px" class="slide-rooms__text">Inner Peace</div>
+										</div>
+										<button data-swiper-parallax-opacity="0" data-swiper-parallax-x="-170%,px" tupe="button" class="slide-rooms__button _icon-arrow-two"></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider-rooms__bullets"></div>
 					</div>
 				</div>
 			</div>
-			<!--=====we=============================================================================-->
-			<div class="we">
-				<div class="we__container">
-					<div class="we__item">
-						<h3 class="we__title">Our Product
-						</h3>
-						<div class="we__text">Our product is cloud solution for manage your MongoDB in cloud, in one
-							click you can deploy multi data center mongo.
+			<!--=======tips=========================================================================-->
+			<div class="tips">
+				<div class="tips__container">
+					<h2 class="tips__title">Tips & Tricks</h2>
+					<div class="tips__swiper">
+						<div class="tips__slider swiper">
+							<div class="tips__wrapper swiper-wrapper">
+								<a href="" class="tips__slide swiper-slide slide-tips">
+									<div class="slide-tips__image-ibg">
+										<picture><source srcset="img/tips/01.webp" type="image/webp"><img src="img/tips/01.jpg" alt=""></picture>
+									</div>
+									<div class="slide-tips__body body-slide">
+										<div class="body-slide__title">How to create a living
+											room to love</div>
+										<div class="body-slide__date">20 jan 2020</div>
+									</div>
+								</a>
+								<a href="" class="tips__slide swiper-slide slide-tips">
+									<div class="slide-tips__image-ibg">
+										<picture><source srcset="img/tips/02.webp" type="image/webp"><img src="img/tips/02.jpg" alt=""></picture>
+									</div>
+									<div class="slide-tips__body body-slide">
+										<div class="body-slide__title">Solution for clean look working
+											space</div>
+										<div class="body-slide__date">10 jan 2020</div>
+									</div>
+								</a>
+								<a href="" class="tips__slide swiper-slide slide-tips">
+									<div class="slide-tips__image-ibg">
+										<picture><source srcset="img/tips/03.webp" type="image/webp"><img src="img/tips/03.jpg" alt=""></picture>
+									</div>
+									<div class="slide-tips__body body-slide">
+										<div class="body-slide__title">Make your cooking activity
+											more fun with good setup</div>
+										<div class="body-slide__date">20 jan 2020</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="tips__bullets"></div>
+						<div class="tips__arrows">
+							<div class="tips__arrows_left _icon-arrow"></div>
+							<div class="tips__arrows_right _icon-arrow"></div>
 						</div>
 					</div>
-					<div class="we__item">
-						<h3 class="we__title">Our Service
-						</h3>
-						<div class="we__text">We can support you MongoDB installition in any datacenter, you can install
-							it not only via our service.
+
+				</div>
+			</div>
+			<!--======gallery=========================================================================-->
+			<div class="gallery">
+				<h3 class="gallery__subtitle">Share your setup with</h3>
+				<h2 class="gallery__title">#FuniroFurniture</h2>
+				<div class="gallery__body">
+					<div class="gallery__item item-first">
+						<div class="item-first__top">
+							<a class="item-link" href="img/gallery/01.jpg"><picture><source srcset="img/gallery/01.webp" type="image/webp"><img src="img/gallery/01.jpg" alt=""></picture></a>
+							<a class="item-link" href="img/gallery/02.jpg"><picture><source srcset="img/gallery/02.webp" type="image/webp"><img src="img/gallery/02.jpg" alt=""></picture></a>
+						</div>
+						<div class="item-first__bottom">
+							<a class="item-link" href="img/gallery/06.jpg">
+								<picture><source srcset="img/gallery/06.webp" type="image/webp"><img src="img/gallery/06.jpg" alt=""></picture>
+							</a>
+							<a class="item-link" href="img/gallery/07.jpg">
+								<picture><source srcset="img/gallery/07.webp" type="image/webp"><img src="img/gallery/07.jpg" alt=""></picture>
+							</a>
 						</div>
 					</div>
-					<div class="we__item">
-						<h3 class="we__title">Our Technology
-						</h3>
-						<div class="we__text">We user FastAPI and MongoDB(motor dirver) all async jobs doing via Celery,
-							you always can connect to our project
+					<div class="gallery__item item-average">
+						<a class="item-link" href="img/gallery/03.jpg"><picture><source srcset="img/gallery/03.webp" type="image/webp"><img src="img/gallery/03.jpg" alt=""></picture></a>
+					</div>
+					<div class="gallery__item item-last">
+						<div class="item-last__top">
+							<a class="item-link" href="img/gallery/04.jpg"><picture><source srcset="img/gallery/04.webp" type="image/webp"><img src="img/gallery/04.jpg" alt=""></picture></a>
+							<a class="item-link" href="img/gallery/05.jpg"><picture><source srcset="img/gallery/05.webp" type="image/webp"><img src="img/gallery/05.jpg" alt=""></picture></a>
+						</div>
+						<div class="item-last__bottom">
+							<a class="item-link" href="img/gallery/08.jpg"><picture><source srcset="img/gallery/08.webp" type="image/webp"><img src="img/gallery/08.jpg" alt=""></picture></a>
+							<a class="item-link" href="img/gallery/09.jpg"><picture><source srcset="img/gallery/09.webp" type="image/webp"><img src="img/gallery/09.jpg" alt=""></picture></a>
 						</div>
 					</div>
 				</div>
@@ -108,42 +478,72 @@
 	</main>
 	<footer class="footer">
 		<div class="footer__container">
-			<div data-spollers="761.98" class="footer__contacts footer-contacts">
-				<div class="footer-contacts__item">
-					<button type="button" data-spoller class="footer-contacts__title">Contacts
-					</button>
-					<div class="footer-contacts__body">
-						<div class="footer-contacts__content">
-							<a href="tel:+48 737 438 975" class="footer-contacts__link">+48 737 438 975
-							</a>
-							<a href="mail:info@mongodb.tech" class="footer-contacts__link">info@mongodb.tech
-							</a>
+			<div data-spollers="761.98" class="footer__item foniro">
+				<div class="foniro__item">
+					<button type="button" data-spoller class="foniro__title title-footer">Funiro.</button>
+					<div class="foniro__body body-footer">
+						<div class="foniro__contacts contacts-funiro content-footer">
+							<div class="contacts-funiro__item item-footer">Worldwide furniture store since 2020. We sell
+								over 1000+
+								branded products on our website</div>
+							<div class="contacts-funiro__item _icon-location item-footer">Sawojajar Malang, Indonesia</div>
+							<div class="contacts-funiro__item _icon-phone item-footer"><a href="tel:+6289 456 3455">+6289
+									456 3455</a>
+							</div>
+							<div class="contacts-funiro__item item-footer"><a href="https://www.funiro.com">www.funiro.com</a></div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div data-spollers="761.98" class="footer__social social-footer">
-				<div class="social-footer__item">
-					<button type="button" data-spoller class="social-footer__title">Social Media</button>
-					<div class="social-footer__body">
-						<div class="social-footer__content">
-							<a href="" target="_blank" class="social-footer__link _icon-youtobe"></a>
-							<a href="" target="_blank" class="social-footer__link _icon-telegram"></a>
-							<a href="" target="_blank" class="social-footer__link _icon-linkedin"></a>
-							<a href="" target="_blank" class="social-footer__link _icon-dev"></a>
-							<a href="https://dev.to/dagolub/first-version-001-50od" target="_blank" class="social-footer__link _icon-twitter"></a>
+			<div data-spollers="761.98" class="footer__item menuFooter">
+				<div class="menu__item">
+					<button type="button" data-spoller class="menu__title title-footer">Menu</button>
+					<div class="body-footer">
+						<div class="menu__footer footer-menu content-footer">
+							<div class="footer-menu__item item-footer"><a href="">Products</a></div>
+							<div class="footer-menu__item item-footer"><a href="">Rooms</a></div>
+							<div class="footer-menu__item item-footer"><a href="">Inspirations</a></div>
+							<div class="footer-menu__item item-footer"><a href="">About Us</a></div>
+							<div class="footer-menu__item item-footer"><a href="">Terms & Policy</a></div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div data-spollers="761.98" class="footer__donate donate-footer">
-				<div class="donate-footer__item">
-					<button type="button" data-spoller class="donate-footer__title">Donate</button>
-					<div class="donate-footer__body">
-						<a href="" target="_blank" class="donate-footer__content">
-							<img src="img/iocns/patreon.svg" alt="donate-footer__image" img>
-							<div class="donate-footer__price">-1500$</div>
-						</a>
+			<div data-spollers="761.98" class="footer__item account">
+				<div class="account__item">
+					<button type="button" data-spoller class="account__title title-footer">Account</button>
+					<div class="account__body body-footer">
+						<div class="account__footer footer-account content-footer">
+							<div class="footer-account__item item-footer"><a href="">My Account</a></div>
+							<div class="footer-account__item item-footer"><a href="">Checkout</a></div>
+							<div class="footer-account__item item-footer"><a href="">My Cart</a></div>
+							<div class="footer-account__item item-footer"><a href="">My catalogs</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-spollers="761.98" class="footer__item stay-connected">
+				<div class="stay-connected__item">
+					<button type="button" data-spoller class="stay-connected__title title-footer">Stay Connected</button>
+					<div class="stay-connected__body body-footer">
+						<div class="stay-connected__footer footerStay-connected content-footer">
+							<div class="footerStay-connected__item item-footer"><a href="">Facebook</a></div>
+							<div class="footerStay-connected__item item-footer"><a href="">Instagram</a></div>
+							<div class="footerStay-connected__item item-footer"><a href="">Twitter</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-spollers="761.98" class="footer__item update">
+				<div class="update__item">
+					<button type="button" data-spoller class="update__title title-footer">Stay Updated</button>
+					<div class="update__body body-footer">
+						<div class="update__footer footer-update content-footer">
+							<form action="#" class="footer-update__form ">
+								<input class="footer-update__email" type="email" placeholder="Enter your email">
+								<button class="footer-update__button _icon-twitter" type="button"></button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -160,7 +560,7 @@
 		</div>
 	</div>
 </div> -->
-	<script src="js/app.min.js?_v=20220716232235"></script>
+	<script src="js/app.min.js?_v=20220715125224"></script>
 </body>
 
 </html>
